@@ -30,7 +30,7 @@ CREATE TABLE `users` (
   `password` varchar(145) NOT NULL,
   `status` varchar(45) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'fe491deb-b5a6-44be-b3bd-78511c2e9630','dimboo','dtprabowo19@gmail.com','$2b$10$xfIVKsnOz7WF59dKjRpLQ.y9LqaCQYhPYjTTwUD6IvlkkWNharz42','1'),(2,'25897df5-ffbe-4c1e-8380-30c4648fed3c','dimbo1','dtprabowo19@gmail.com','$2b$10$8OzFOy2/ezBlHNfALzgwyuY3oBb47RpA0IhkSgfCZzEuJxKUfSwUa','0');
+INSERT INTO `users` VALUES (1,'8f1e1dce-a610-44b0-9f34-4e51e4fc609e','dimastri','dtprabowo19@gmail.com','$2b$10$fXXl21vnzkdQ67.lGg31RO.utIIGyAfH8OPrcPhOSIZKLZGDyV3nm','1');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-05-18 16:01:46
+-- Dump completed on 2022-05-20 20:06:24

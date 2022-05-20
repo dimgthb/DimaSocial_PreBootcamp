@@ -16,31 +16,30 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `userspr`
+-- Table structure for table `profile`
 --
 
-DROP TABLE IF EXISTS `userspr`;
+DROP TABLE IF EXISTS `profile`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `userspr` (
+CREATE TABLE `profile` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `username` varchar(45) NOT NULL,
+  `uid` varchar(45) NOT NULL,
   `fullname` varchar(45) NOT NULL,
   `bio` varchar(60) NOT NULL,
-  `email` varchar(45) NOT NULL,
   `profilpic` varchar(45) NOT NULL,
-  `status` varchar(45) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `userspr`
+-- Dumping data for table `profile`
 --
 
-LOCK TABLES `userspr` WRITE;
-/*!40000 ALTER TABLE `userspr` DISABLE KEYS */;
-/*!40000 ALTER TABLE `userspr` ENABLE KEYS */;
+LOCK TABLES `profile` WRITE;
+/*!40000 ALTER TABLE `profile` DISABLE KEYS */;
+INSERT INTO `profile` VALUES (1,'8f1e1dce-a610-44b0-9f34-4e51e4fc609e','Dimas Tri Prabowo','Professional Dreamer, Coding Enthusiast','mokbbh');
+/*!40000 ALTER TABLE `profile` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -52,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-05-18 16:01:46
+-- Dump completed on 2022-05-20 20:06:24
