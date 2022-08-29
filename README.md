@@ -3,4 +3,4 @@ Purwadhika Pre-Bootcamp Individual Projcect
 
 Author:
 Dimas Tri Prabowo
-bowotp@gmail.com
+dtprabowo19@gmail.com
